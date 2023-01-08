@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Card from '../../components/card'
 
-const index = ({movies}) => {
+const Movies = ({movies}) => {
     console.log(movies)
   return (
     <div>
@@ -25,4 +25,4 @@ export async function getStaticProps(){
         }
     }
 }
-export default index
+export default Movies
