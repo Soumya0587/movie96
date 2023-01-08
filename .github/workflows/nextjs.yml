@@ -92,6 +92,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-    shell: /usr/bin/bash -e {0}
-  env:
-    GITHUB_PAGES: true
+   
