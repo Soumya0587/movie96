@@ -81,7 +81,7 @@ jobs:
         with:
           path: ./out
         env:
-          CI: false
+          Cl: false
   # Deployment job
   deploy:
     environment:
