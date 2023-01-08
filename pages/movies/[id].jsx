@@ -32,10 +32,10 @@ export async function getStaticProps(context){
     // console.log(context)
     const {id}=context.params
     const res = await fetch(`http://localhost:8080/movies/${id}`);
-    const data = await res.json();
+    const dat = await res.json();
     return{
         props:{
-            data : data
+            data : dat
         }
     }
 }
